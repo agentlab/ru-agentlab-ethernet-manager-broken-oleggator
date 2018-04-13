@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Bundle-Vendor: BMSTU
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: com.bmstu.coursework.ethernet.manager;version="[1.0.0,2.0.0)",
+ com.bmstu.coursework.ethernet.manager.model;version="[1.0.0,2.0.0)"
+Bundle-ActivationPolicy: lazy
