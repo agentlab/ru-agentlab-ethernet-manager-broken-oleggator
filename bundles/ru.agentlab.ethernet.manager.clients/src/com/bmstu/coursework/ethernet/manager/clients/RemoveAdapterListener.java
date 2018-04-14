@@ -15,6 +15,7 @@ import com.bmstu.coursework.ethernet.manager.model.EthernetAdapterEvent;
  * @author Aleksei Petrov
  *
  */
+@Component
 public class RemoveAdapterListener implements IEthernetListener {
 
 	@Override

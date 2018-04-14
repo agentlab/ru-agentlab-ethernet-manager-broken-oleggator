@@ -35,6 +35,7 @@ import com.bmstu.coursework.ethernet.manager.model.OldNewInfoPair;
  * @author Aleksei Petrov
  *
  */
+@Component
 public class EthernetManager implements IEthernetManager {
 
 	private static final int AWAIT_TERMINATION_TIME = 10;
