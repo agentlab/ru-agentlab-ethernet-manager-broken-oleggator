@@ -156,6 +156,9 @@ public class EthernetManager implements IEthernetManager {
 								event.getAdded().add(newInfo);
 							}
 						}
+						
+						System.out.println("Interface " + newInfo.getDisplayName());
+						newInfo.getAddresses().forEach(System.out::println);
 					});
 					infos.stream().forEach(oldInfo -> {
 						if (!newInfos.contains(oldInfo) && !changedAdapters.contains(oldInfo))
