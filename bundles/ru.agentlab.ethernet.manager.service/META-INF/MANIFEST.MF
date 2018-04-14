@@ -9,3 +9,4 @@ Import-Package: com.bmstu.coursework.ethernet.manager,
  org.osgi.service.component.annotations;version="1.3.0"
 Export-Package: com.bmstu.coursework.ethernet.manager.impl
 Bundle-ActivationPolicy: lazy
+Service-Component: OSGI-INF/com.bmstu.coursework.ethernet.manager.impl.EthernetManager.xml

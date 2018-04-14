@@ -9,3 +9,6 @@ Import-Package: com.bmstu.coursework.ethernet.manager,
  com.bmstu.coursework.ethernet.manager.model,
  org.osgi.service.component.annotations;version="1.3.0"
 Bundle-ActivationPolicy: lazy
+Service-Component: OSGI-INF/com.bmstu.coursework.ethernet.manager.clients.AdapterAddListener.xml,
+ OSGI-INF/com.bmstu.coursework.ethernet.manager.clients.RemoveAdapterListener.xml,
+ OSGI-INF/com.bmstu.coursework.ethernet.manager.clients.ChangeAdapterListener.xml
