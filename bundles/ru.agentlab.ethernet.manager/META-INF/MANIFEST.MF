@@ -5,4 +5,5 @@ Bundle-SymbolicName: com.bmstu.coursework.ethernet.manager
 Bundle-Version: 1.0.0.qualifier
 Bundle-Vendor: BMSTU
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
-Import-Package: com.bmstu.coursework.ethernet.manager.model;version="[1.0.0,2.0.0)"
+Export-Package: com.bmstu.coursework.ethernet.manager,
+ com.bmstu.coursework.ethernet.manager.model
